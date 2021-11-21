@@ -1,0 +1,9 @@
+name: diabetes-aml-env
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - numpy
+  - pip
+  - pip:
+      - azureml-core
+      - azureml-defaults
